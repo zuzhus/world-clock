@@ -1,5 +1,6 @@
 body {
-  background-color: #f9f7fe;
+  background-color: black;
+  color: grey;
   font-family: sans-serif;
 }
 h1 {
@@ -11,18 +12,26 @@ h2 {
   margin: 0 0 5px;
   font-size: 28px;
 }
+option {
+  background: #1f1f1f;
+  border-color: grey;
+}
+
 select {
   display: block;
-  background: white;
+  background: rgba(225, 225, 225, 0.041);
+  color: grey;
   width: 100%;
   font-size: 18px;
   border-radius: 5px;
+  border-color: grey;
   padding: 10px;
 }
+
 .container {
   max-width: 600px;
-  margin: 60px auto;
-  background: white;
+  margin: 100px auto 30px auto;
+  background: rgba(225, 225, 225, 0.1);
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -32,7 +41,7 @@ select {
   margin: 20px 0;
   justify-content: space-between;
   padding: 20px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed grey;
 }
 .city:last-child {
   border: none;
@@ -50,10 +59,17 @@ select {
   vertical-align: middle;
   line-height: 48px;
 }
-
+a {
+  color: #e0b0ff;
+  text-decoration: none;
+}
+a:active {
+  color: grey;
+  text-decoration: none;
+}
 footer {
   text-align: center;
-  margin: 25px 0 0 0;
+  margin: 15 auto;
   font-size: 14px;
   color: 0, 0, 0, 0.6;
 }
